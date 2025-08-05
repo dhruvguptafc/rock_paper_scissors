@@ -6,3 +6,20 @@ function getComputerChoice(){
 }
 
 console.log(getComputerChoice());
+
+
+
+function getHumanChoice(string){
+    user = prompt("lets play rock,paper,or scissors");
+    if(user==="rock"){
+        return("rock");
+    }else if (user === "paper"){
+        return("paper")
+    }else if(user === "scissors"){
+        return("scissors")
+    }else{
+        return("not valid")
+
+    }
+}
+console.log(getHumanChoice());
