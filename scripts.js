@@ -10,7 +10,7 @@ function getHumanChoice() {
         return user;
     } else {
         alert("Invalid choice! Please enter rock, paper, or scissors.");
-        return getHumanChoice(); // Ask again if invalid input
+        return getHumanChoice(); 
     }
 }
 
