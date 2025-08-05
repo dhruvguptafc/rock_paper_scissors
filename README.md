@@ -1,2 +1,2 @@
 # rock_paper_scissors
-rock papers scissors project
+rock paper scissors project
